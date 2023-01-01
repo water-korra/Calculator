@@ -2,7 +2,7 @@ const fs = require("fs");
 const inputFileText = fs.readFileSync("input.txt", "utf8");
 
 const Parse = (line) => {
-  const input = line.split(".");
+  const input = line.split(" ");
   return input;
 };
 const parsedLine = Parse(inputFileText);
